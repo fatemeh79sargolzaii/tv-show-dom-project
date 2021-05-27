@@ -1,0 +1,94 @@
+body {
+  background-color: #01676b;
+}
+#divcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.creatdiv {
+  width: 400px;
+  /* height: 99%; */
+  background-color: #93b5b3;
+  text-align: center;
+  border: solid 1px black;
+  margin: 10px;
+  border-radius: 20px;
+}
+.creatdiv:hover {
+  /* box-shadow: 0.5px 1px #b8b5b5, -1em 0 0.4em #cac8c8; */
+  background-color: #bfdddb;
+}
+a:hover {
+  color: rgba(148, 54, 54, 0.932);
+}
+.creatimg {
+  border: solid 1px black;
+  border-radius: 13px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.creath2 {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   flex-wrap: wrap;
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.creatdiv h2 {
+  font-family: Brush Script MT, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: #c8dad3;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+}
+.creatdiv p {
+  font-family: Comic Sans MS, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 10px;
+}
+.creatdiv:hover img {
+  filter: saturate(200%);
+  width: 250px;
+  height: 200px;
+  transform: rotate(360deg);
+}
+
+input,
+button,
+select,
+label {
+  border: solid 1px black;
+  border-radius: 2px;
+  width: 250px;
+  outline: none;
+  margin: 10px;
+}
+label {
+  font-family: Comic Sans MS, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: white;
+  border: solid 1px cadetblue;
+}
+input,
+button,
+select {
+  background-color: #f2f6f5;
+}
+button,
+option,
+select {
+  font-family: Comic Sans MS, "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
