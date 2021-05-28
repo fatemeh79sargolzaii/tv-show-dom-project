@@ -174,6 +174,8 @@ input.addEventListener("keyup", function () {
       divs[index].style.display = "none";
     } else {
       divs[index].style.display = "block";
+      divcontent.style.display = "flex";
+      divcontent.style.justifyContent = "center";
       num++;
     }
   }
@@ -192,7 +194,6 @@ select.addEventListener("change", function (e) {
       divs[index].style.display = "block";
       divcontent.style.display = "flex";
       divcontent.style.justifyContent = "center";
-    
     } else {
       divs[index].style.display = "none";
     }
